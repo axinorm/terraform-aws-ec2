@@ -9,3 +9,11 @@ variable "vpc_cidr" {
 variable "instance_type" {
   default = "t2.micro"
 }
+
+variable "db_username" {
+  default = "rds_admin"
+}
+
+variable "db_password" {
+  default = "n>xL93H;"
+}
